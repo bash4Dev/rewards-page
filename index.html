@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    <title>Rewards Page</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1><img src="./images/page-log.png" width="50px" height="50px" alt=""> Rewards Page</h1>
+        <nav id="nav-links">
+            <div class="link"><a href="#earnings-overview">Earnings</a></div>
+            <div class="link"><a href="#cashback-history">History</a></div>
+            <div class="link"><a href="#cashout-options">Cashout</a></div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="earnings-overview">
+            <h2>Earnings Overview</h2>
+            <div id="earning-summary">
+                <div class="cashback-earned">Cashback Amount: <span id="cashback-amount"></span></div>
+                <div class="current-balance">Available Balance: <span id="current-balance"></span></div>
+            </div>
+            <div class="progress-bar">
+                <p>Progress Bar:</p>
+                <div class="progress-fill"></div>
+            </div>
+        </section>
+
+        <section id="cashback-history">
+            <h2>Cashback History</h2>
+            <div id="transactions">
+                <div id="tooltip"></div>
+            </div>
+        </section>
+
+        <section id="cashout-options">
+            <h2>Cashout Options</h2>
+            <div class="options">
+                <div id="toBank">
+                    <p>Do you want to withdraw to your bank account?</p>
+                    <button type="button" id="cashout-bank" aria-label="Bank Account">Bank Account</button>
+                </div>
+                <div id="toPromo">
+                    <p>Do you want to convert cashback to a promo code for future use?</p>
+                    <button type="button" id="convert-promo" aria-label="Promo Code">Promo Code</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="modal-overlay" class="hidden">
+            <div id="modal-contents"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="copyright">&copy; 2024 Rewards Page</div>
+        <ul class="additional-info">
+            <li><a href="" target="_blank">Contact</a></li>
+            <li><a href="" target="_blank">Terms of Services</a></li>
+            <li><a href="" target="_blank">Privacy Policy</a></li>
+        </ul>
+    </footer>
+    <script src="./script.js"></script>
+    <script src="./modal.js"></script>
+</body>
+</html>
