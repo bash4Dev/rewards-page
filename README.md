@@ -21,9 +21,9 @@
 2. Cashback History
 
     - Provides a list of past transactions, including:
-        Transaction date.
-        Amount earned.
-        Brief booking details.
+        - Transaction date.
+        - Amount earned.
+        - Brief booking details.
 
 3. Cashout Options
 
@@ -55,6 +55,6 @@
 
 - Backend Integration: In the future, the page will be connected to an API to retrieve real data for earnings, transactions, and cashout actions.
 
-### Internship Context
+## Internship Context
 
 *This was a required task provided as part of an internship opportunity, and I am in the process of improving the project while learning React. It showcases my current skills in HTML, CSS, and JavaScript, with a focus on frontend development.*
