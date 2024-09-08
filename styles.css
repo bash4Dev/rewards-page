@@ -178,11 +178,34 @@ button {
 }
 
 #modal-contents {
+    text-align: center;
     background-color: var(--white);
-    padding: 2rem;
+    padding: 2rem 1rem;
     border-radius: 8px;
     width: 90%;
-    max-width: 500px;
+    max-width: 550px;
+}
+
+#modal-contents p {
+    margin: 8px 0;
+}
+
+#modal-contents input#promo-amount {
+    font-size: 15px;
+    padding: 12px;
+    margin-right: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #d6d5d5;
+}
+
+#modal-contents #confirm-promo {
+    margin-right: 10px;
+    background-color: grey;
+}
+
+#modal-contents #close-modal {
+    background-color: #f36d6d;
 }
 
 footer {
